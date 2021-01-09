@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.github.nsteps</groupId>
-    <artifactId>spring-k8s-helm-concource</artifactId>
+    <artifactId>spring-k8s-concource</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-k8s-helm-concource</name>
+    <name>spring-k8s-concource</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -50,14 +50,6 @@
                         <enabled>true</enabled>
                     </layers>
                     <imageName>stnick/${artifactId}:${version}</imageName>
-                    <docker>
-                        <publishRegistry>
-                            <username>stnick</username>
-                            <password>8246577961430</password>
-                            <url>https://hub.docker.com/stnick</url>
-                        </publishRegistry>
-                    </docker>
-                    <publish>true</publish>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>

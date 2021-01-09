@@ -1,23 +1,11 @@
-## Docker
-#docker-hub-email: <<DOCKER HUB EMAIL>>
-#docker-hub-username: <<DOCKER USERNAME>>
-#docker-hub-password: <<DOCKER PASSWORD>>
-#docker-hub-repo-name: <<DOCKER REPO NAME>>
-#
-## Kubernetes
-#server: <<API SERVER URI>>
-#namespace: <<NAMESPACE>>
-#cad: <<CERT AUTH DATA>>
-#token: <<K8 TOKEN>>
-
 # Docker
-docker-hub-email: stnick.2012@yandex.ru
-docker-hub-username: stnick
-docker-hub-password: 8246577961430
-docker-hub-repo-name: stnick
+docker-hub-email: <<DOCKER HUB EMAIL>>
+docker-hub-username: <<DOCKER USERNAME>>
+docker-hub-password: <<DOCKER PASSWORD>>
+docker-hub-repo-name: <<DOCKER REPO NAME>>
 
 # Kubernetes
-server: localhost
-namespace: test-ns
+server: <<API SERVER URI>>
+namespace: <<NAMESPACE>>
 cad: <<CERT AUTH DATA>>
 token: <<K8 TOKEN>>

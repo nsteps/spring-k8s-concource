@@ -57,7 +57,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: docker.io/stnick/spring-k8s-helm-concource:0.0.1-SNAPSHOT
+          image: docker.io/stnick/spring-k8s-concource:0.0.1-SNAPSHOT
           envFrom:
             - configMapRef:
                 name: urls-config
